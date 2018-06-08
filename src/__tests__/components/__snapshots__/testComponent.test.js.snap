@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test component container Counter: renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "marginHorizontal": 20,
+      "marginTop": 50,
+    }
+  }
+  testID="test-component-container"
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "black",
+        "fontFamily": "Helvetica Neue",
+        "fontSize": 26,
+        "textAlign": "center",
+      }
+    }
+  >
+    Welcome to the 
+ React-Native Mediamonks template project
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "black",
+        "fontFamily": "Helvetica Neue",
+        "fontSize": 16,
+        "marginVertical": 15,
+        "textAlign": "center",
+      }
+    }
+  >
+    This is a basic example of a project setup. Below is a simple counter to show how redux is setup.
+  </Text>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "marginBottom": 30,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      testID="test-component-counter-value"
+    >
+      Counter value: 
+      0
+    </Text>
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "red",
+          "borderRadius": 10,
+          "justifyContent": "center",
+          "marginVertical": 10,
+          "opacity": 1,
+          "padding": 20,
+        }
+      }
+      testID="test-component-button-increment"
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "white",
+            },
+            undefined,
+          ]
+        }
+      >
+         
+        Increment counter value
+         
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "red",
+          "borderRadius": 10,
+          "justifyContent": "center",
+          "marginVertical": 10,
+          "opacity": 1,
+          "padding": 20,
+        }
+      }
+      testID="test-component-button-decrement"
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "white",
+            },
+            undefined,
+          ]
+        }
+      >
+         
+        Decrement counter value
+         
+      </Text>
+    </View>
+  </View>
+</View>
+`;

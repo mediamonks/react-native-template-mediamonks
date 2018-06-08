@@ -1,0 +1,11 @@
+node_modules/**
+template/**
+test_config/**
+scripts/**
+scriptsOld/**
+ios/**
+android/**
+.vscode
+package.json
+src/__e2e__
+src/__tests__

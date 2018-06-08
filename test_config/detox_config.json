@@ -1,0 +1,5 @@
+{
+	"rootDir": "../",
+	"setupTestFrameworkScriptFile": "./test_config/setup.js",
+	"testMatch": ["**/__e2e__/**/*.js"]
+}

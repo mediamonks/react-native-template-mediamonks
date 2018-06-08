@@ -1,0 +1,7 @@
+{
+  "preset": "react-native",
+  "rootDir": "../",
+  "testPathIgnorePatterns": ["__e2e__", "node_modules"],
+  "setupTestFrameworkScriptFile": "./test_config/enzymeSetup.js",
+  "snapshotSerializers": ["enzyme-to-json/serializer"]
+}
