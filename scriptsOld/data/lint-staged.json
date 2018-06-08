@@ -1,6 +1,0 @@
-{
-	"*.js": [
-		"yarn prepush",
-		"git add"
-	]
-}
