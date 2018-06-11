@@ -8,7 +8,6 @@ A React Native template designed to quick start projects.
 - Make your code pretty with prettier.
 - Control your commits with eslinter and husky.
 - Redux integration and ready to go using asynchronous actions with redux-thunk.
-- Much more....
 
 
 ##  Getting Started
@@ -31,10 +30,14 @@ node scripts/install.js
 ```
 
 ## Issues
+
 ### Detox
-####iOS
+
+#### iOS
+
 Make sure if you want to make use of detox to follow the [getting started](https://github.com/wix/detox/blob/master/docs/Introduction.GettingStarted.md) and install the prerequisites and dependencies needed.
-####Android
+#### Android
+
 Currently doesn't work out of the box, so there is a little set up needed in the android project itself. So you will need to follow a seperate [getting started](https://github.com/wix/detox/blob/master/docs/Introduction.Android.md) guide in order to setup detox for android.
 
 Make sure to amend the configurations of the detox config appropriately to match the correct emulator you've selected.
@@ -44,7 +47,7 @@ Make sure to amend the configurations of the detox config appropriately to match
 ### Seng-generator
 For the ability to generate components quickly make sure to install [seng-generator](https://github.com/mediamonks/seng-generator) cli.
 
-####Quick start
+#### Quick start
 Default templates have already been setup, to make generating components a breeze.
 ```
 npm i -g seng-generator
