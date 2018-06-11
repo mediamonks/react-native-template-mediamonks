@@ -2,7 +2,6 @@ node_modules/**
 template/**
 test_config/**
 scripts/**
-scriptsOld/**
 ios/**
 android/**
 .vscode
