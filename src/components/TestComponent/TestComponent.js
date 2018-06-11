@@ -31,7 +31,7 @@ const TestComponent = ({ counterValue, incrementCounterValue, decrementCounterVa
 TestComponent.propTypes = {
   counterValue: PropTypes.number,
   incrementCounterValue: PropTypes.func,
-  decrementCounterValue: PropTypes.number,
+  decrementCounterValue: PropTypes.func,
 };
 
 export default TestComponent;
