@@ -11,8 +11,8 @@
 
 // Test id's for Test Component
 export const testComponent = {
-  container: 'test-component-container',
-  counterValue: 'test-component-counter-value',
-  incrementButton: 'test-component-button-increment',
-  decrementButton: 'test-component-button-decrement',
+  CONTAINER: 'test-component-container',
+  COUNTER_VALUE: 'test-component-counter-value',
+  INCREMENT_BUTTON: 'test-component-button-increment',
+  DECREMENT_BUTTON: 'test-component-button-decrement',
 };

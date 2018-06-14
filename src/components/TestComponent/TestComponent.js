@@ -7,20 +7,20 @@ import Button from '../Button';
 import { getLocalizedString } from '../../utils/localizedUtils';
 
 const TestComponent = ({ counterValue, incrementCounterValue, decrementCounterValue }) => (
-  <View style={styles.container} testID={testComponent.container}>
-    <Text style={styles.welcome}>{getLocalizedString('GettingStarted.title')}</Text>
-    <Text style={styles.description}>{getLocalizedString('GettingStarted.description')}</Text>
+  <View style={styles.container} testID={testComponent.CONTAINER}>
+    <Text style={styles.welcome}>{getLocalizedString('gettingStarted.title')}</Text>
+    <Text style={styles.description}>{getLocalizedString('gettingStarted.description')}</Text>
     <View style={styles.counterContainer}>
-      <Text testID={testComponent.counterValue}>Counter value: {counterValue}</Text>
+      <Text testID={testComponent.COUNTER_VALUE}>Counter value: {counterValue}</Text>
       <Button
         style={styles.button}
-        testID={testComponent.incrementButton}
+        testID={testComponent.INCREMENT_BUTTON}
         title={'Increment counter value'}
         onPress={incrementCounterValue}
       />
       <Button
         style={styles.button}
-        testID={testComponent.decrementButton}
+        testID={testComponent.DECREMENT_BUTTON}
         title={'Decrement counter value'}
         onPress={decrementCounterValue}
       />
