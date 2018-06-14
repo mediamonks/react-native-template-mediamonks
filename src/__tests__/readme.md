@@ -1,4 +1,0 @@
-#Testing
-
-##Detox
-##Unit testing

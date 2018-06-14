@@ -1,6 +1,11 @@
 {
-	"*.js": [
-		"yarn prepush",
-		"git add"
-	]
+  "linters": {
+    "src/**/*.{js,ts,scss,json}": [
+      "prettier --write",
+      "git add"
+    ],
+    "src/**/*.js": [
+      "npm run lint:js"
+    ]
+  }
 }
