@@ -1,8 +1,8 @@
 {
-	"prepush": "eslint . --cache",
-	"precommit": "lint-staged",
-	"test-ios": "detox build -c ios.sim.debug && detox test -c ios.sim.debug",
-	"test-android": "detox build -c android.emu.debug && detox test -c android.emu.debug -l verbose",
-	"test:unit": "jest . --config=./test_config/jest_config.json",
-	"test": "yarn test:unit && yarn test:ios:release"
+  "precommit": "lint-staged",
+  "lint": "eslint src --ext .js --cache",
+  "test:ios": "detox build -c ios.sim.debug && detox test -c ios.sim.debug",
+  "test:android": "detox build -c android.emu.debug && detox test -c android.emu.debug -l verbose",
+  "test:unit": "jest . --config=./test_config/jest_config.json",
+  "test": "yarn test:unit && yarn test:ios:release"
 }

@@ -1,7 +1,7 @@
-const execSync = require('child_process').execSync;
+const fs = require('fs-extra');
 const path = require('path');
 
-const deletePath = (path) => execSync(`rm -rf ${path}`);
+const deletePath = (path) => fs.removeSync(`rm -rf ${path}`);
 
 const removeSetupFiles = () => {
   // Remove Files

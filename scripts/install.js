@@ -1,5 +1,5 @@
-const setupPackageJson = require('./setupPackageJson.js');
-const removeSetupFiles = require('./removeSetupFiles.js');
+const setupPackageJson = require('./setupPackageJson');
+const removeSetupFiles = require('./removeSetupFiles');
 
 
 const install = () => {
