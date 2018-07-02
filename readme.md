@@ -63,6 +63,9 @@ sg wizard functional-component {component name}
 ### Debugging
 For the best debugging experience make sure to install [react-native-debugger](https://github.com/jhen0409/react-native-debugger).
 
+## LICENSE
+
+[MIT](./LICENSE) © MediaMonks
 
 
 
