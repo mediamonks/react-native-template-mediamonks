@@ -1,7 +1,7 @@
 const fs = require('fs-extra');
 const path = require('path');
 
-const deletePath = (path) => fs.removeSync(`rm -rf ${path}`);
+const deletePath = (path) => fs.removeSync(path);
 
 const removeSetupFiles = () => {
   // Remove Files
