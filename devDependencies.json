@@ -1,0 +1,16 @@
+{
+  "eslint babel-eslint": "8.2.3",
+  "eslint-config-airbnb-base": "12.1.0",
+  "eslint-plugin-import": "2.12.0",
+  "eslint-plugin-prettier": "2.6.0",
+  "eslint-plugin-react": "7.8.2",
+  "eslint-config-prettier": "2.9.0",
+  "husky": "0.14.3",
+  "lint-staged": "7.1.2",
+  "prettier": "1.13.3",
+  "detox": "7.3.7",
+  "enzyme": "3.3.0",
+  "enzyme-adapter-react-16": "1.1.1",
+  "enzyme-to-json": "3.3.4",
+  "react-dom": "16.4.0"
+}
