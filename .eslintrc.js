@@ -12,7 +12,7 @@ module.exports = {
     'prettier',
     'prettier/react',
   ],
-  plugins: ['import', 'react', 'prettier', 'react-native'],
+  plugins: ['import', 'react', 'prettier'],
   rules: {
     'react/jsx-filename-extension': 0,
     'react/no-unused-prop-types': ['error', {

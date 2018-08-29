@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View } from 'react-native';
 import PropTypes from 'prop-types';
-import styles from './{{name_cc}}.style.js';
+import styles from './{{name_cc}}.style';
 
 class {{name_pc}} extends Component {
 
