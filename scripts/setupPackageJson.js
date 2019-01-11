@@ -20,14 +20,6 @@ const setupPackageJson = () => {
   const lintStagedJsonPath = path.resolve('./scripts/data/lint-staged.json');
   file['lint-staged'] = JSON.parse(fs.readFileSync(lintStagedJsonPath));
 
-  // Get the project name
-  const projectName = file.name;
-
-  // Setup detox
-  const detoxJSONPath = path.resolve('./scripts/data/detox.json');
-  const parsedDetoxJSONData = JSON.parse(fs.readFileSync(detoxJSONPath));
-  const detoxJSON = JSON.stringify(parsedDetoxJSONData).replace(/{HelloWorld}/g, projectName);
-  file.detox = JSON.parse(detoxJSON);
 
   fs.writeFileSync(fileName, JSON.stringify(file, null, 2), 'utf8');
 };
