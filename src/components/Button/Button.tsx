@@ -1,17 +1,14 @@
 import React from 'react';
-import { Text, TouchableOpacity } from 'react-native';
-import styles from './button.style';
+import { Touchable, Text } from './styled';
 
 interface IProps {
   title: string;
-  testID: string;
   onPress: () => {};
-  style: {};
-  fontStyle: {};
+  testID: string;
 }
 
-export default ({ title, onPress, style, fontStyle, testID }: IProps) => (
-  <TouchableOpacity testID={testID} style={[ styles.container, style ]} onPress={onPress}>
-    <Text style={[ styles.fontStyle, fontStyle ]}> {title} </Text>
-  </TouchableOpacity>
+export default ({ title, onPress, testID }: IProps) => (
+  <Touchable testID={testID} onPress={onPress}>
+    <Text> {title} </Text>
+  </Touchable>
 );
