@@ -1,18 +1,22 @@
 const fs = require('fs-extra');
 const path = require('path');
 
-const deletePath = (path) => fs.removeSync(path);
+const deletePath = deletionPath =>
+  fs.remove(path.resolve(deletionPath), err =>
+    console.log(err || `Successfully deleted: ${deletionPath}`),
+  );
 
-const removeSetupFiles = () => {
+module.exports = () => {
   // Remove Files
-  deletePath(path.resolve('scripts'));
-  deletePath(path.resolve('App.js'));
-  deletePath(path.resolve('.travis.yml'));
-  deletePath(path.resolve('devDependencies.json'));
-  deletePath(path.resolve('travis.yml'));
-  deletePath(path.resolve('LICENCE'));
-  deletePath(path.resolve('readme.md'));
+  const pathsToDelete = [
+    'scripts',
+    'App.js',
+    '.travis.yml',
+    'devDependencies.json',
+    'travis.yml',
+    'LICENCE',
+    'readme.md',
+  ];
+
+  return Promise.all(pathsToDelete.map(deletePath));
 };
-
-module.exports = removeSetupFiles;
-
