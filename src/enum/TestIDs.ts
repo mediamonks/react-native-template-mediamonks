@@ -10,9 +10,9 @@
  */
 
 // Test id's for Test Component
-export const testComponent = {
-  CONTAINER: 'test-component-container',
-  COUNTER_VALUE: 'test-component-counter-value',
-  INCREMENT_BUTTON: 'test-component-button-increment',
-  DECREMENT_BUTTON: 'test-component-button-decrement',
-};
+export enum TestComponent {
+  CONTAINER = 'test-component-container',
+  COUNTER_VALUE = 'test-component-counter-value',
+  INCREMENT_BUTTON = 'test-component-button-increment',
+  DECREMENT_BUTTON = 'test-component-button-decrement',
+}
