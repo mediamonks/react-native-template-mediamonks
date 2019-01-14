@@ -8,4 +8,5 @@ I18n.translations = {
   en,
 };
 
-export const getLocalizedString = (...value) => I18n.t(...value);
+// TODO: check if the types are correct
+export const getLocalizedString = (...value: string[]) => I18n.t(...value);

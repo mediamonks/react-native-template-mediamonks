@@ -3,6 +3,7 @@ import configureStore from 'redux-mock-store';
 import thunk from 'redux-thunk';
 
 // create a middleware const that imitates the stores middleware.
-const middleware = [thunk];
+const middleware = [ thunk ];
 // Create a mock redux store.
-export const mockStore = configureStore(middleware);
+// TODO: setup proper mockStore
+// export const mockStore = configureStore(middleware);
