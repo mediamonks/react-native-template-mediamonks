@@ -1,6 +1,0 @@
-{
-  "precommit": "lint-staged",
-  "lint": "eslint src --ext .js --cache",
-  "test:unit": "jest . --config=./test_config/jest_config.json",
-  "test": "yarn test:unit && yarn test:ios:release"
-}

@@ -1,22 +1,22 @@
 {
-	"name": "react-native-template-mediamonks",
-	"version": "1.0.2",
-	"description": "Clean start to any react-native project.",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/TomAtterton/react-native-boilerplate.git"
-	},
-	"keywords": [
-		"react-native",
-		"jest",
-		"redux",
-		"template",
-		"boilerplate"
-	],
-	"author": "Tom Atterton",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/TomAtterton/react-native-boilerplate/issues"
-	},
-	"homepage": "https://github.com/TomAtterton/react-native-boilerplate#readme"
+  "name": "react-native-template-mediamonks",
+  "version": "2.0.0",
+  "description": "Clean start to any react-native project.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomAtterton/react-native-boilerplate.git"
+  },
+  "keywords": [
+    "react-native",
+    "jest",
+    "redux",
+    "template",
+    "boilerplate"
+  ],
+  "author": "Tom Atterton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TomAtterton/react-native-boilerplate/issues"
+  },
+  "homepage": "https://github.com/TomAtterton/react-native-boilerplate#readme"
 }
