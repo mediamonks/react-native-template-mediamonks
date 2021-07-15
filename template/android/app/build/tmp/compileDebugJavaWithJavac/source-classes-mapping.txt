@@ -1,0 +1,15 @@
+com/template/MainActivity.java
+ com.template.MainActivity
+ com.template.MainActivity$1
+com/template/BuildConfig.java
+ com.template.BuildConfig
+com/template/ReactNativeFlipper.java
+ com.template.ReactNativeFlipper
+ com.template.ReactNativeFlipper$1
+ com.template.ReactNativeFlipper$2
+ com.template.ReactNativeFlipper$2$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/template/MainApplication.java
+ com.template.MainApplication
+ com.template.MainApplication$1
