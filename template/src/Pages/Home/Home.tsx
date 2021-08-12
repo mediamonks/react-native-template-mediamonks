@@ -16,7 +16,7 @@ const Home = ({ increment }: Props) => (
   <View style={styles.container}>
     <Text style={styles.envTitle}>{`TITLE: ${localizedCopy('title')}`}</Text>
     <Text style={styles.envTitle}>{`ENVIRONMENT: ${Config.ENV}`}</Text>
-    <Button title={'increment'} onPress={() => increment()} />
+    <Button title={'increment'} onPress={increment} />
   </View>
 );
 
