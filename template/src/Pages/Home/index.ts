@@ -4,6 +4,7 @@ import { RootState } from '../../store/reducers';
 import { incrementBy } from '../../store/actions/appActions';
 
 const mapStateToProps = (state: RootState) => ({});
+
 const mapDispatchToProps = {
   increment: incrementBy,
 };
