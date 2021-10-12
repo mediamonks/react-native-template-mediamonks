@@ -4,7 +4,7 @@ import Config from 'react-native-config';
 import { getLocalizedString } from '../../utils/localizedUtils';
 import Pages from '../../enum/Pages';
 import styles from './home.style';
-import { Button } from 'react-native-disco-ui';
+import { Button } from 'react-native';
 
 const localizedCopy = (value: string) => getLocalizedString({ key: Pages.HOME, value });
 
